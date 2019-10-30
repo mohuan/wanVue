@@ -9,6 +9,9 @@ import Routers from './router';
 import store from './store/store';
 import components from './components/main';
 
+import util from './libs/util';
+
+
 // 加载插件
 // iview
 Vue.use(ViewUI);
@@ -18,6 +21,8 @@ Vue.use(VueRouter);
 Vue.use(components);
 
 Vue.config.productionTip = false;
+
+Vue.prototype.util = util;
 
 //路由配置
 const RouterConfig = {
