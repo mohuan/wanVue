@@ -1,11 +1,5 @@
 <template>
   <div id="app">
-    <!--<img src="./assets/logo.png">-->
-    <!--<Button type="primary">你好iView</Button>-->
-    <!--<Button type="success">Success</Button>-->
-    <!--<Circle :percent="80">-->
-      <!--<span class="demo-Circle-inner" style="font-size:24px">80%</span>-->
-    <!--</Circle>-->
     <router-view/>
   </div>
 </template>
