@@ -14,7 +14,7 @@ util.config = config;
 
 util.ajax = axios.create({
   baseURL: config.api_url,
-  withCredentials: true,
+  withCredentials: false,
   requestHeader: {'Content-Type': 'application/json'},
   timeout: 30000
 });
