@@ -30,6 +30,8 @@ const install = function () {
       //   ops.url += '?_t=' + timestamp
       // }
 
+      debugger
+
       Util.ajax({
         // responseType: 'json',
         method: ops.method ? ops.method : 'get',
