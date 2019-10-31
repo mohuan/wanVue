@@ -8,9 +8,8 @@ import 'view-design/dist/styles/iview.css';
 import Routers from './router';
 import store from './store/store';
 import components from './components/main';
-
+import './styles/index.css'
 import util from './libs/util';
-
 
 // 加载插件
 // iview

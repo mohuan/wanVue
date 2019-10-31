@@ -16,6 +16,6 @@
     width: 100%;
     height: 100%;
     background: #42b983;
-    font-size: 19px;
+    font-size: 20px;
   }
 </style>
